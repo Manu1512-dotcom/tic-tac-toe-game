@@ -1,0 +1,100 @@
+*
+{
+    margin: 0%;
+    padding: 0%;
+}
+
+body
+{
+    background-color: rgb(58, 106, 157);
+}
+
+#heading
+{
+    text-align: center;
+    margin-top: 100px;
+    text-decoration: underline;
+    font-family: cursive;
+}
+
+#gameZone
+{
+    height: 50vh;
+    width: 75vw;
+    background-color: gray;
+    margin-left: 12.5vw;
+    margin-top: 5vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 15px;
+}
+
+#grid
+{
+    height: 90%;
+    width: 30%;
+    border-radius: 5%;
+    background-color: azure;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.inner
+{
+    font-family: cursive;
+    text-align: center;
+    font-size: 50px;
+    color: aliceblue;
+    padding-top: 10px;
+    background-color: darkblue;
+    height: 30%;
+    width: 30%;
+    border-radius: 5%;
+    /* border: 5px solid yellow; */
+    box-sizing: border-box;
+}
+
+#resetButton
+{
+    padding: 7px;
+    color: whitesmoke;
+    background-color: black;
+    margin-left: 47vw;
+    margin-top: 5vh;
+    border-radius: 3px;
+    border: none;
+}
+
+#newButton
+{
+    margin-top: 10vh;
+    padding: 10px;
+    color: whitesmoke;
+    background-color: black;
+    border-radius: 3px;
+    border: none;
+    font-size: medium;
+}
+
+#msgContainer
+{
+    height: 100vh;
+    text-align: center ;
+    
+}
+
+#msg
+{
+    margin-top: 40vh;
+    color: whitesmoke;
+    font-size: 5vh;
+}
+
+.hide
+{
+    display: none;
+}
